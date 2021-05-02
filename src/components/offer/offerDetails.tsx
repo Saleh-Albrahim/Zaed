@@ -48,6 +48,7 @@ const ItemDetails: React.FC<Props> = ({ isOpen, onClose }) => {
   const onSubmit = async (e: any) => {
     e.preventDefault();
     successAlertTimer('تم إرسال الطلب بنجاح');
+    onClose();
   };
 
   return (
