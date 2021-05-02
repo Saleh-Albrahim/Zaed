@@ -47,7 +47,7 @@ const ItemDetails: React.FC<Props> = ({ isOpen, onClose }) => {
   const [imageSrc, setImageSrc] = useState('');
   const onSubmit = async (e: any) => {
     e.preventDefault();
-    askQuestionAlert(onClose);
+    successAlertTimer('تم إرسال الطلب بنجاح');
   };
 
   return (
