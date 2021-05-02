@@ -32,9 +32,6 @@ const Logout = ({ updateScene }: Props) => {
       <Button position="fixed" right={1} bottom={2} {...buttonStyle} color="red.700" onClick={(e: any) => logout()}>
         تسجيل الخروج
       </Button>
-      <Button position="fixed" right={1} bottom="77px" {...buttonStyle}>
-        طلباتي
-      </Button>
     </>
   );
 };

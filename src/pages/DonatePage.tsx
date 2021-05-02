@@ -40,13 +40,14 @@ const DonatePage = () => {
   };
 
   return (
-    <Flex alignItems="center" justifyContent="center" height="100vh">
+    <Flex alignItems="center" justifyContent="center">
       <VStack
         width="40%"
         rounded="md"
         backgroundColor="white"
         border="10px"
         borderColor="black"
+        mt={5}
         boxShadow="dark-lg"
         p={5}
       >
@@ -61,7 +62,7 @@ const DonatePage = () => {
             <Text color="green.700" fontSize="25px">
               تبرع بـ الزائد لديك :
             </Text>
-            <br />
+
             <FormLabel color="green.700" fontSize="15px" fontWeight="bold">
               نوع الصنف :
             </FormLabel>
