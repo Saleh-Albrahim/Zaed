@@ -25,6 +25,7 @@ const Logout = ({ updateScene }: Props) => {
 
   const logout: any = async () => {
     updateScene('الرئيسية');
+    successAlertTimer('تم تسجيل الخروج بنجاح');
     history.push('/');
   };
   return (
